@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+<link rel="stylesheet" href="site.css">
+
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo">My Blogs</h2>
+          <div class="toggle "></div>
+        </header>
+        <video src="pixel.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>I am gona make the rest of my life </h2> 
+          <h3>the best of my life</h3>
+         <span>
+        <p style="font-size: 20;"> <em> Guys this is <b>  Abhishek Kumar Verma</b>. I love to Explore New Technologies like <strong> Web development, BlockChain and BlockChain development</strong>. To Know More About me you can Contact me.</em></p>
+        </span>
+          <a href="#"><b> Explore </b></a>
+        </div>
+        <ul class="social">
+          <li><a href="https://www.facebook.com/abhishek.kumarverma.31149/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="https://www.instagram.com/asmodeus_abhi/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="https://hithaldia.ac.in/">College</a></li>
+          <li><a href="https://bokaro.nic.in/">Destination</a></li>
+          <li><a href="https://www.youtube.com/channel/UChU7-2vsv5hhMz6hqjDI8NA">Youtube Channel</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <script>
+          const menuToggle = document.querySelector('.toggle');
+const showcase = document.querySelector('.showcase');
+
+menuToggle.addEventListener('click', () => {
+  menuToggle.classList.toggle('active');
+  showcase.classList.toggle('active');
+})
+      </script>
+</body>
+</html>
